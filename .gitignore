@@ -1,0 +1,46 @@
+# ===== Maven =====
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== Eclipse / STS =====
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# ===== NetBeans =====
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Spring Initializr =====
+HELP.md
+
+# ===== 日志 / 运行时 =====
+logs/
+*.log
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
